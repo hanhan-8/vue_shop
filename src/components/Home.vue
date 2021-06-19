@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-button type="info" @click="out">退出</el-button>
+    <el-button type="info" @click="out">退出！</el-button>
   </div>
 </template>
 
