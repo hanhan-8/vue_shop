@@ -60,7 +60,8 @@ export default {
         // console.log(valid);
         if (!valid) return;
         const { data: res } = await this.$http.post("login", this.loginForm);
-        if (res.meta.status !== 200) return this.$message.error("登录失败");
+        if (res.meta.status !== 200)
+          return this.$message.error("登录失败，请输入正确的用户名或密码");
         this.$message.success("登录成功");
         console.log(res);
         window.sessionStorage.setItem("token", res.data.token);
