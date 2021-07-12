@@ -26,7 +26,7 @@ const routes = [
       { path: '/users', component: Users },
       { path: '/rights', component: Rights },
       { path: '/roles', component: Roles },
-      { path: '/add', component: Add },
+      { path: '/goods/add', component: Add },
       { path: '/categories', component: Categories },
       { path: '/list', component: List },
       { path: '/params', component: Params },
