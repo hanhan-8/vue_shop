@@ -40,13 +40,13 @@
         :expandType="false"
         :showIndex="true"
       >
-        <template slot="isok" scope="scope">
+        <template slot="isok" slot-scope="scope">
           <i
             :style="scope.row.cat_deleted==='true' ? 'color:lightgreen' :'color:red'"
             :class="scope.row.cat_deleted==='true' ? 'el-icon-success':'el-icon-error'"
           ></i>
         </template>
-        <template slot="order" scope="scope">
+        <template slot="order" slot-scope="scope">
           <!-- <el-tag
             :type="scope.row.cat_level === '0' ? 'primary' : (scope.row.cat_level === '1' ? 'success' : 'warning')"
             disable-transitions
