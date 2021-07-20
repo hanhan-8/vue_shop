@@ -28,11 +28,11 @@ const routes = [
       { path: '/roles', component: Roles },
       { path: '/goods/add', component: Add },
       { path: '/categories', component: Categories },
-      { path: '/list', component: List },
+      { path: '/goods', component: List },
       { path: '/params', component: Params },
       { path: '/citydata', component: Citydata },
-      { path: '/order', component: Order },
-      { path: '/report', component: Report }
+      { path: '/orders', component: Order },
+      { path: '/reports', component: Report }
     ]
   },
 
